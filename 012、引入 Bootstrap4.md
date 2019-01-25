@@ -12,3 +12,19 @@ npm install bootstrap --save --save-exact
 import 'bootstrap/dist/css/bootstrap.min.css'
 ```
 
+
+
+# 导入 JS
+
+先安装 jquery 
+
+```cmd
+npm install --save jquery popper.js
+```
+
+然后导入
+
+```vue
+import 'bootstrap/dist/js/bootstrap.min.js'
+```
+
