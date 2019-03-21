@@ -31,8 +31,8 @@ let formData = new FormData();
 // 通过 Vue.js 中的 ref 获取到 HTML 元素
 formData.append('file', this.$refs.recordInput.files[0]);
 
-// 提交录音文件4
-7axios.post("提交的路径", formData, {
+// 提交录音文件
+axios.post("提交的路径", formData, {
     headers: {
         'Content-Type': 'multipart/form-data'
     }
